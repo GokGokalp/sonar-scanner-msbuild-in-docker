@@ -3,6 +3,12 @@ SonarQube Scanner for MSBuild to .NET Core projects in Docker
 
 https://hub.docker.com/r/gokgokalp/sonar-scanner-dotnetcore-msbuild/
 
+###On SonarQube Server:
+1) Install or upgrade your existing instance to SonarQube 6.7+ LTS
+2) Install SonarC# 6.7+ (it's a happy coincidence the two versions are matching)
+
+More detail: https://docs.sonarqube.org/display/SCAN/Scanning+on+Linux+or+macOS
+
 Usage:
 -----
 Sample Dockerfile for your projects:
